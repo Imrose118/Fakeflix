@@ -1,0 +1,414 @@
+body{
+    margin: 0;
+    font-size: 0.9rem;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin: 0;
+    background-image: radial-gradient(circle, rgba(0,0,0,0.14359247116815477) 0%, rgba(0,0,0,0.7654412106639531) 67%),url(../images/kola.jpg);
+    
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 33rem;
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width:0.3rem;
+    border-color:#1f3a36;
+    
+    
+}
+
+header .head{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+    
+}
+
+header img{
+    width: 28%;
+    max-width: 100px;
+}
+header .head a{
+    text-decoration: none;
+    background-color: #c13d14;
+    color: white;
+    font-size: 0.9rem;
+    padding: 0.35rem 0.5rem;
+    text-align: center;
+    border-radius: 0.1rem;
+}
+header .show{
+    width: 90%;
+    margin:0 auto;
+    color: white;
+    text-align: center;
+
+ 
+}
+header p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+header form{
+    width: 100%;
+    margin:0;
+    margin-bottom: 0.7rem;
+}
+header form input[type="email"]{
+    width: 100%;
+    padding: 0.7rem 0;
+    padding-left:0.4rem ;
+    max-width: 320px;
+}
+header .Get a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+   
+}
+header .Get{
+    background-color: #c13d14;
+    width: 37%;
+    margin: 0 auto;
+    min-height: 2.4rem;
+    text-align: center;
+    line-height:2.4rem ;
+    border-radius: 0.1rem;
+    cursor: pointer;
+    max-width: 135px;
+}
+header .Get:hover{
+    background-color: red;
+    transition: 0.8s ease-in;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width:0.3rem;
+    border-color:#1f3a36;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:2rem 1rem;
+    justify-content: center;
+    font-size: 1.08rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    max-height: 26rem;
+}
+section img{
+    width: 90%;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-width: none;
+    align-items: stretch;
+    justify-content: center;
+    max-height: 40rem;
+    padding: 0;
+    padding: 2rem 0;
+}
+.faq .a{
+    text-align: left;
+}
+.faq form{
+    width: 100%;
+    margin:0;
+    
+}
+.faq form input[type="email"]{
+    width: 87%;
+    padding: 0.7rem 0;
+    padding-left:0.4rem ;
+    margin-bottom: 0.5rem;
+    max-width: 320px;
+}
+.faq .Get a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+   
+}
+.faq .Get{
+    background-color: #c13d14;
+    width: 37%;
+    margin: 0 auto;
+    min-height: 2.4rem;
+    text-align: center;
+    line-height:2.4rem ;
+    border-radius: 0.1rem;
+    cursor: pointer;
+    max-width: 135px;
+}
+.faq .Get:hover{
+    background-color: red;
+    transition: 0.8s ease-in;
+}
+.faq .Get:focus{
+    background-color: red;
+    transition: 0.8s ease-in;
+}
+.faq .a{
+    background-color:#1f3a36;
+    padding: 1rem 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+    
+}
+.p-1{
+    display: none;
+}
+.faq .p-2{
+    margin-bottom: 0.6rem;
+}
+.a a{
+    text-decoration: none;
+    color: white;
+}
+
+.f-1{
+    display: none;
+}
+.f-2{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-height: 23rem;
+    width: 90%;
+    margin:1rem auto ;
+    padding:2rem 1rem;
+}
+.f-2 ul{
+    margin: 0;
+    padding: 0;
+}
+.f-2 li{
+    list-style: none;
+    
+    margin-bottom: 0.5rem;
+    
+}
+.f-2 a{
+    text-decoration:none;
+    color: #90616c;
+    font-weight: 500;
+    font-size: 0.86rem;
+}
+
+.alu-2{
+    margin-top: 2rem;
+
+}
+.h1{
+    display: none;
+}
+@media(min-width:540px){
+    html{
+        font-size: 1.3rem;
+    }
+    .faq{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+@media(min-width:940px)
+{
+    html{
+        font-size: 1.5rem;
+    }
+    .head img{
+        max-width: 160px;
+    }
+    .p-2{
+        display: none;
+    }
+    header .p-1{
+        display: block;
+        font-size: 0.8rem;
+    }
+    header form, .Get{
+        display: inline-block;
+
+    }
+    .head{
+        margin-bottom: 2rem;
+    }
+    header form{
+        width:35%;
+    }
+    header .Get{
+        max-width: 20%;
+        margin-left: 0.33rem;
+        padding-top: 0.26rem;
+        padding-bottom: 0.26rem;
+        position: relative;
+        top: 0.12rem;
+    }
+    header form input[type="email"]{
+        max-width: 100%;
+        font-size:0.7rem ;
+        padding:1.05rem 0.2rem;
+    
+    }
+    header .Get a{
+        font-size: 1.3rem;
+    }
+    header h1{
+        font-size: 2.7rem;
+    }
+    header{
+        background-attachment:fixed;
+        background-position: center;
+    }
+    header .head{
+        padding-top: 0;
+        width: 93%;
+        margin: 0 auto;
+    }
+    header .head a{
+        font-size: 0.7rem;
+    }
+    header .show{
+        margin-top: 6rem;
+    }
+    .one{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top:4rem;
+        padding-bottom: 4rem;
+        text-align: left;
+
+    }
+    .two{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        padding-top:4rem;
+        padding-bottom: 4rem;
+        text-align: left;
+
+    }
+    .three{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top:4rem;
+        padding-bottom: 4rem;
+        text-align: left;
+
+    }
+    .h2{
+        display: none;
+    }
+    .h1{
+        display: block;
+    }
+    .faq{
+        max-width: 53%;
+        font-size: 1.1rem;
+        border: none;
+    }
+    .faq h1{
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+    .faq .a{
+        padding:0.8rem 0.8rem;
+        margin-bottom: 0.4rem;
+    }
+    .faq .p-1{
+        display: block;
+        font-size: 0.84rem;
+        margin-top: 2.3rem;
+    }
+     .huda{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        max-height:3.2rem ;
+    }
+    .huda form{
+        width: 70%;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .huda .Get{
+        min-width: 30%;
+        margin: 0;
+        line-height: 3.2rem;
+        position: relative;
+        right:0.66rem;
+    }
+    .huda .Get a{
+        font-size: 1.1rem;
+        
+    }
+   
+    .huda form input[type="email"]
+    {
+        max-width: 100%;
+        padding:1.1rem 0.6rem;
+        font-size: 0.7rem;
+        padding-right: 1rem;
+    }
+    .huda{
+        margin-bottom:1.2rem;
+    }
+    .f-2{
+        display: none;
+    }
+    .f-1{
+        display: block;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding:3rem 10rem ;
+        border-style:solid ;
+        border-width: 0;
+        border-top-width:0.3rem;
+        border-color:#1f3a36;
+        align-items: center;
+    }
+    .f-1 .kola-1 {
+        margin-bottom: 1.5rem;
+        
+    }
+    .f-1 .kola-1 a{
+        font-size: 0.7rem;
+    }
+    .f-1 .kola-2{
+        margin-top: 1.5rem;
+    }
+    .f-1 ul{
+        margin: 0;
+        padding: 0;
+    }
+    .f-1 li{
+        list-style: none;
+        margin-bottom: 0.5rem;
+    }
+    .f-1 a{
+        color: #b1516e;
+        font-size: 0.55rem;
+        text-decoration: none;
+    }
+    
+}
